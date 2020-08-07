@@ -40,9 +40,9 @@
       "login"
     ],
     "props": {
-      "inverted": "true",
-      "sticky": "true",
-      "fullWidth": "false"
+      "sticky": true,
+      "inverted": true,
+      "fullWidth": false
     }
   },
   "header-row#main-mobile": {
