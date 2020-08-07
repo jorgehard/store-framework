@@ -13,10 +13,12 @@
   },
   "search-result-layout.customQuery": {
     "props": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableIte": "true",
+      "maxItemsPerPage": 8,
       "querySchema": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableIte": "true",
-        "maxItemsPerPage": 8
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
       }
     }
   }
