@@ -1,0 +1,23 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "src": "https://loremflickr.com/cache/resized/65535_49947411156_56f5918669_h_1200_300_nofilter.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableIte": "true",
+        "maxItemsPerPage": 8
+      }
+    }
+  }
+}
