@@ -1,0 +1,30 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "src": "https://loremflickr.com/cache/resized/65535_49947411156_56f5918669_h_1200_300_nofilter.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "blocks": [
+      "search-result-layout.desktop"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 8,
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Dynamic",
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft",
+        "skusFilter": "FIRST_AVAILABLE"
+      }
+    }
+  }
+}
