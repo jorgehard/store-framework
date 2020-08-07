@@ -78,7 +78,7 @@
     }
   },
   "tab-content.item#home2": {
-    "blocks": [
+    "children": [
       "iframe"
     ],
     "props": {
